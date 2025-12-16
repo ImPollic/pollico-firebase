@@ -6,7 +6,7 @@ export default function Home() {
       <div className="w-full max-w-5xl mx-auto px-6 py-10">
         <header className="mb-10">
           <h1 className="text-3xl font-semibold">
-            Bem-vindo de volta!
+            Bem-vindo ao Pollic ChatAPP!
           </h1>
           <p className="text-zinc-400 mt-1">
             Veja suas conversas e mensagens recentes
@@ -21,7 +21,7 @@ export default function Home() {
             </div>
 
             <ul className="space-y-3">
-              {["João", "Maria", "Grupo IF"].map((name) => (
+              {["ImPollic", "ChatGPT", "Chess"].map((name) => (
                 <li
                   key={name}
                   className="flex items-center justify-between rounded-lg px-4 py-3 bg-[#3a3f40] hover:bg-[#464b4c] transition cursor-pointer"

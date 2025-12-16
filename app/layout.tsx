@@ -44,11 +44,9 @@ export default function RootLayout({
             <AppSidebar />
 
             <main className="flex-1 bg-[#232728]">
-              <div className="flex items-center gap-2 p-4">
+              <div className="flex items-center gap-2 fixed">
                 <SidebarTrigger style={{ color: 'white'}}/>
-                <span className="text-sm text-white">
-                  
-                </span>
+                
               </div>
 
               <div className="flex min-h-[calc(100vh-64px)] w-full items-center justify-center">
